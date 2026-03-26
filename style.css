@@ -791,6 +791,7 @@ strong { color: var(--text); font-weight: 600; }
   background: linear-gradient(135deg, rgba(124,58,237,0.04) 0%, transparent 60%);
   opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 
 .proj-card:hover {
